@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background: url('https://img.freepik.com/premium-psd/fitness-gym-training-facebook-cover-web-banner-psd-template_265396-140.jpg?semt=ais_hybrid') no-repeat center center/cover;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.btn {
+    background: #ff6600;
+    /* color: #fff; */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #e65c00;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+.about,
+.services {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.about img,
+.service-item img {
+    max-width: 100%;
+    height: 15rem;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.services {
+    background: #fff;
+    margin-top: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item {
+    margin-bottom: 40px;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+/* .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}  */
